@@ -1,0 +1,134 @@
+@media screen and (max-width: 950px) {
+  text {
+    align-content: center;
+    font-weight: bold;
+    font-size: 70px;
+  }
+  .merge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+  }
+  .imgbg {
+    height: 30vh;
+  }
+  .imgbg img {
+    height: 30vh;
+  }
+  .aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: none;
+    margin: none;
+  }
+  .merge img {
+    height: 50vh;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  marquee {
+    color: rgba(255, 20, 145, 0);
+    font-size: 25px;
+    font-weight: bold;
+    display: grid;
+    height: 10%;
+    width: 83%;
+    padding: 18% 10% 0% 10%;
+  }
+  @keyframes bounce {
+    to {
+      transform: translateY(4rem);
+    }
+  }
+  body {
+    max-width: max-content;
+  }
+  .lower-case {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 5%;
+  }
+  .imgbg {
+    background-color: rgb(249, 241, 245);
+    margin: 12% 10% 20% 0%;
+    height: 30vh;
+  }
+  .secondbg {
+    background-color: deeppink;
+    height: auto;
+    width: 80%;
+    margin: 5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
+
+  .picture {
+    height: 100vh;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .aboutme {
+    width: 100%;
+    padding: 0% 5% 0% 5%;
+  }
+  .workdisplay {
+    display: flex;
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+    background-color: rgba(233, 5, 127, 0.883);
+    height: auto;
+    box-shadow: 10px 10px 10px purple;
+  }
+  .work {
+    height: 35%;
+  }
+  .letters {
+    margin-top: 10%;
+    /* max-width: auto; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.131);
+    font-weight: 100px;
+    font-size: 30px;
+    background: linear-gradient(purple, deeppink, purple);
+    background-position: center;
+    background-clip: text;
+    background-size: 1000px 500px;
+    -webkit-background-clip: text;
+    place-items: center;
+    display: grid;
+    animation: myframes 10s infinite linear;
+  }
+
+  nav {
+    display: none;
+  }
+  .picture {
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+  }
+
+  .thirdbg {
+    padding: 1% 5% 1% 5%;
+  }
+}

@@ -1,0 +1,126 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.secondbg {
+  background-color: deeppink;
+  height: 85vh;
+  width: 90%;
+  margin: 5%;
+  display: -webkit-inline-flex;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.picture {
+  height: 100vh;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.imgbg img {
+  height: 55vh;
+  width: 100%;
+  padding: 5% 10% 10% 5%;
+}
+.imgbg {
+  background-color: rgb(249, 241, 245);
+  margin: 12% 10% 20% 0%;
+  height: 55vh;
+}
+.aboutme {
+  width: 50%;
+  padding: 0% 5% 0% 5%;
+}
+.aboutme > h2 {
+  margin: 10% 0% 5% 0%;
+  color: black;
+}
+/* thirdbg */
+
+.thirdbg {
+  padding: 1% 5% 1% 5%;
+}
+h2 {
+  margin-bottom: 3%;
+  color: deeppink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.thirdbg h3 {
+  margin: 1% 0% 1% 0%;
+  color: deeppink;
+}
+
+.work {
+  height: 100%;
+}
+.workdisplay {
+  display: flex;
+  width: 80%;
+  margin: 2% 10% 2% 10%;
+  background-color: rgba(233, 5, 127, 0.883);
+  height: 50%;
+  box-shadow: 10px 10px 10px purple;
+}
+.imagetext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.workdisplay > img {
+  height: 100%;
+  width: 80%;
+  background-color: 45deg linear-gradient;
+}
+.imagebox {
+  display: flex;
+  width: 100%;
+}
+.imgdesign {
+  background: linear-gradient(
+    45deg,
+    purple,
+    purple,
+    rgb(227, 5, 123),
+    deeppink,
+    white
+  );
+  border-radius: 50%;
+  width: 50%;
+  height: 80%;
+  margin: 7% 3% 2% 3%;
+}
+form {
+  /* margin-top: 10%; */
+  background-color: rgb(249, 241, 245);
+  display: flex;
+  width: 90%;
+  margin: 15% 0% 10% 5%;
+  box-shadow: 10px 10px 10px purple;
+}
+.left-form {
+  width: 50%;
+  padding: 0% 0% 0% 5%;
+}
+.txt-field {
+  margin-top: 5%;
+}
+.right-form {
+  margin-top: 5%;
+}
+#message {
+  background-color: deeppink;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+  padding: 2%;
+  font-weight: bold;
+  margin: 7% 2% 7% 2%;
+  box-shadow: 10px 10px 10px purple;
+}
